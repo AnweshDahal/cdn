@@ -1,0 +1,67 @@
+:root {
+  --grid-size: 80px;
+}
+
+.custom-grid {
+  display: grid;
+  grid-template-columns: var(--grid-size) var(--grid-size) var(--grid-size);
+  column-gap: 20px;
+}
+
+.cell {
+  height: var(--grid-size);
+  width: var(--grid-size);
+  display: block;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dog-point {
+  background-image: url('https://www.watsonswine.com/_ui/desktop/theme-wine/img/wine/brand-logo2/Brand_02_DOGPOINT.png');
+}
+
+.d-arenberg {
+  background-image: url("https://www.watsonswine.com/_ui/desktop/theme-wine/img/wine/brand-logo2/Brand_01_DARENBERG.png")
+}
+
+.louis-m-martini {
+  background-image: url("https://www.watsonswine.com/medias/sys_master/h90/h19/8959516213278.jpg")
+}
+
+.montes {
+  background-image: url("https://www.watsonswine.com/_ui/desktop/theme-wine/img/wine/brand-logo2/Brand_05_MONTES.png")
+}
+
+.catena-zapata {
+  background-image: url("https://www.watsonswine.com/_ui/desktop/theme-wine/img/wine/brand-logo2/Brand_06_CATENA.png");
+}
+
+.zuccardi {
+  background-image: url("https://www.watsonswine.com/_ui/desktop/theme-wine/img/wine/brand-logo2/Brand_09_ZUCCARDI.png");
+}
+
+.elderton {
+  background-image: url("https://www.watsonswine.com/_ui/desktop/theme-wine/img/wine/brand-logo2/Brand_08_ELDERTON.png")
+}
+
+.orin-swift {
+  background-image: url("https://www.watsonswine.com/medias/sys_master/hfe/h79/9052666920990.jpg")
+}
+
+.yarra-yering {
+  background-image: url("https://www.watsonswine.com/_ui/desktop/theme-wine/img/wine/brand-logo2/Brand_12_YARRAYERING.png");
+}
+
+.tommasi {
+  background-image: url("https://www.watsonswine.com/_ui/desktop/theme-wine/img/wine/brand-logo2/Brand_11_TOMMASI.png");
+}
+
+.domaine {
+  background-image: url("https://www.watsonswine.com/_ui/desktop/theme-wine/img/wine/brand-logo2/Brand_10_VOUGERAIE.png");
+}
+
+.vesper {
+  background-image: url("https://www.vesperhouse.com/wp-content/uploads/2020/12/Vesper-House-Logo-3.png");
+}
