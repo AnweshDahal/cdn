@@ -1,21 +1,34 @@
 :root {
   --grid-size: 80px;
+  --mobile-grid-size: 48px;
 }
 
 .custom-grid {
   display: grid;
-  grid-template-columns: var(--grid-size) var(--grid-size) var(--grid-size);
-  column-gap: 20px;
+  grid-template-columns: var(--mobile-grid-size) var(--mobile-grid-size) var(--grid-size);
+  column-gap: 10px;
 }
 
 .cell {
-  height: var(--grid-size);
-  width: var(--grid-size);
+  height: var(--mobile-grid-size);
+  width: var(--mobile-grid-size);
   display: block;
   background-color: white;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+@media only screen and (min-width: 769px){
+  .custom-grid {
+    grid-template-columns: var(--grid-size) var(--grid-size) var(--grid-size);
+    column-gap: 20px;
+  }
+  
+  .cell {
+    height: var(--grid-size);
+    width: var(--grid-size);
+  }
 }
 
 .dog-point {
