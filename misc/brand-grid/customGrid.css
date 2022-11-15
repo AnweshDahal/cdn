@@ -1,6 +1,6 @@
 :root {
   --grid-size: 80px;
-  --mobile-grid-size: 48px;
+  --mobile-grid-size: 60px;
 }
 
 .custom-grid {
